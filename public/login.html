@@ -29,34 +29,34 @@
     </nav>
 <header>
     <h1>LOC OFFICAL</h1>
-    <p>Thank you for your support</p>
+    <p>Fill out the following to access the full site</p>
     <img src="" alt="" />
 </header>
 
 
 <div class = "wrapper">
-    <form action="">
-        <h1>Create User</h1>
+    <form action="/login" method="post">
+        <h1>Login</h1>
         <div class = "input-box">
-            <input type="text" placeholder="Full Name" required>
-            <i class='bx bxs-edit-alt'></i>
+            <input type="text" placeholder="Username" name="username" required>
+            <i class='bx bxs-user'></i>
         </div>
         <div class = "input-box">
-            <input type="password" placeholder="Username" required>
-            <i class='bx bxs-edit-alt'></i>
+            <input type="password" placeholder="Password" name="password" required>
+            <i class='bx bxs-lock-alt'></i>
         </div>
-          <div class = "input-box">
-            <input type="password" placeholder="Password" required>
-            <i class='bx bxs-edit-alt'></i>
-        </div> 
-            <button type="submit" class="btn">Register</button>
+        <div class="remember-forgot">
+                <input type="checkbox"><label>Remember User</label>
+            <a href="recover.html">Forgot Password?</a>
+        </div>   
+            <button type="submit" class="btn">Login</button>
             <div class="register-link">
-                <p>Already Have an Account? <a href="login.html">Login</a></p>
+                <p>Don't have an account? <a href="register.html">Register</a></p>
             </div>
        
     </form>
 </div>
-
+    
     
     
 <section class="footer">
